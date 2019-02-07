@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2958" started-at="2019-02-07T06:55:32Z" finished-at="2019-02-07T06:55:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="2958" started-at="2019-02-07T06:55:32Z" finished-at="2019-02-07T06:55:35Z">
+      <class name="Test1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test1@4eb7f003]" name="setUp" is-config="true" duration-ms="311" started-at="2019-02-07T06:55:32Z" finished-at="2019-02-07T06:55:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Test1@4eb7f003]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-07T06:55:32Z" finished-at="2019-02-07T06:55:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test1.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Test1@4eb7f003]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-02-07T06:55:32Z" finished-at="2019-02-07T06:55:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:Test1@4eb7f003]" name="test1" duration-ms="31" started-at="2019-02-07T06:55:32Z" finished-at="2019-02-07T06:55:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test1@4eb7f003]" name="afterMethod" is-config="true" duration-ms="361" started-at="2019-02-07T06:55:32Z" finished-at="2019-02-07T06:55:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=Test1.test1()[pri:0, instance:Test1@4eb7f003] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Test1 -->
+      <class name="Test2">
+        <test-method status="PASS" signature="cobaGetCountry()[pri:0, instance:Test2@eafc191]" name="cobaGetCountry" duration-ms="2342" started-at="2019-02-07T06:55:33Z" finished-at="2019-02-07T06:55:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cobaGetCountry -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Test2@eafc191]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-02-07T06:55:33Z" finished-at="2019-02-07T06:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Test2@eafc191]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-07T06:55:33Z" finished-at="2019-02-07T06:55:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test2.cobaGetCountry()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test2@eafc191]" name="afterMethod" is-config="true" duration-ms="64" started-at="2019-02-07T06:55:35Z" finished-at="2019-02-07T06:55:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cobaGetCountry status=SUCCESS method=Test2.cobaGetCountry()[pri:0, instance:Test2@eafc191] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:Test2@eafc191]" name="test2" duration-ms="2" started-at="2019-02-07T06:55:35Z" finished-at="2019-02-07T06:55:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Test2@eafc191]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-07T06:55:35Z" finished-at="2019-02-07T06:55:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test2.test2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test2@eafc191]" name="afterMethod" is-config="true" duration-ms="139" started-at="2019-02-07T06:55:35Z" finished-at="2019-02-07T06:55:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=Test2.test2()[pri:0, instance:Test2@eafc191] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Test2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
